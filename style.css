@@ -1,0 +1,38 @@
+@media (min-width: 992px) {
+    .back{
+        background-image: url("img/AnyConv.com__IMG_1956.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .nav_1{
+        box-shadow: 0px 10px 5px rgba(0,0,0,0.4);
+    }
+    .navbar-light .navbar-nav .nav-link{
+        transition: 0.3s;
+        font-size: 20px;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: #ff0000 !important;
+    }
+    .bod_1{
+        margin-top: 50px;
+        background-color: white;
+        padding: 20px;
+        box-shadow: 0px 0px 20px rgba(0,0,0,0.4);
+    }
+    .bodi_2{
+        text-align: center;
+    }
+}
+@media (max-width: 576px) {
+    .navbar-light .navbar-nav .nav-link{
+        transition: 0.3s;
+        font-size: 20px;
+    }
+    .navbar-light .navbar-nav .nav-link:hover{
+        color: #ff0000 !important;
+    }
+    .bodi_2{
+        text-align: center;
+    }
+}
